@@ -1,5 +1,5 @@
 {
-  "name": "callback",
+  "name": "kosac_callback",
   "version": "1.0.0",
   "description": "test callback",
   "main": "index.js",
@@ -9,6 +9,6 @@
   "keywords": [
     "test"
   ],
-  "author": "lbc",
+  "author": "lim6112j",
   "license": "ISC"
 }
