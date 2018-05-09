@@ -326,8 +326,8 @@ ifeq ($(strip $(foreach prefix,$(NO_LOAD),\
 endif
 
 quiet_cmd_regen_makefile = ACTION Regenerating $@
-cmd_regen_makefile = cd $(srcdir); /usr/local/lib/node_modules/node-gyp/gyp/gyp_main.py -fmake --ignore-environment "--toplevel-dir=." -I/Users/mac/workspace/kosac/nodecpp-demo-100e65bb92d07ac62bcecdbe4e9e6a980562b7f5/basics/callback/build/config.gypi -I/usr/local/lib/node_modules/node-gyp/addon.gypi -I/Users/mac/.node-gyp/8.11.1/include/node/common.gypi "--depth=." "-Goutput_dir=." "--generator-output=build" "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=/Users/mac/.node-gyp/8.11.1" "-Dnode_gyp_dir=/usr/local/lib/node_modules/node-gyp" "-Dnode_lib_file=/Users/mac/.node-gyp/8.11.1/<(target_arch)/node.lib" "-Dmodule_root_dir=/Users/mac/workspace/kosac/nodecpp-demo-100e65bb92d07ac62bcecdbe4e9e6a980562b7f5/basics/callback" "-Dnode_engine=v8" binding.gyp
-Makefile: $(srcdir)/../../../../../../../usr/local/lib/node_modules/node-gyp/addon.gypi $(srcdir)/build/config.gypi $(srcdir)/binding.gyp $(srcdir)/../../../../../.node-gyp/8.11.1/include/node/common.gypi
+cmd_regen_makefile = cd $(srcdir); /usr/local/lib/node_modules/node-gyp/gyp/gyp_main.py -fmake --ignore-environment "--toplevel-dir=." -I/Users/mac/workspace/kosac/npmPublish/build/config.gypi -I/usr/local/lib/node_modules/node-gyp/addon.gypi -I/Users/mac/.node-gyp/8.11.1/include/node/common.gypi "--depth=." "-Goutput_dir=." "--generator-output=build" "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=/Users/mac/.node-gyp/8.11.1" "-Dnode_gyp_dir=/usr/local/lib/node_modules/node-gyp" "-Dnode_lib_file=/Users/mac/.node-gyp/8.11.1/<(target_arch)/node.lib" "-Dmodule_root_dir=/Users/mac/workspace/kosac/npmPublish" "-Dnode_engine=v8" binding.gyp
+Makefile: $(srcdir)/../../../.node-gyp/8.11.1/include/node/common.gypi $(srcdir)/build/config.gypi $(srcdir)/binding.gyp $(srcdir)/../../../../../usr/local/lib/node_modules/node-gyp/addon.gypi
 	$(call do_cmd,regen_makefile)
 
 # "all" is a concatenation of the "all" targets from all the included
