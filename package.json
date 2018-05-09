@@ -1,0 +1,14 @@
+{
+  "name": "callback",
+  "version": "1.0.0",
+  "description": "test callback",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "lbc",
+  "license": "ISC"
+}
