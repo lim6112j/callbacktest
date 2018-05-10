@@ -9,6 +9,7 @@
   "keywords": [
     "test"
   ],
+  "gypfile": true,
   "author": "lim6112j",
   "license": "ISC"
 }
