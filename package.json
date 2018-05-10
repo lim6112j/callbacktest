@@ -2,7 +2,7 @@
   "name": "kosac_callback",
   "version": "1.0.4",
   "description": "test callback",
-  "main": "index.js",
+  "main": "./build/Release/callback",
   "scripts": {
     "test": "test"
   },
