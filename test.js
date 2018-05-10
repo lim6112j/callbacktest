@@ -1,4 +1,4 @@
-const callback = require('./build/Release/callback');
+const callback = require('./index.js');
 
 var callme = function(message) {
     if ( message ) {

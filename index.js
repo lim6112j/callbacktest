@@ -1,3 +1,3 @@
-const callback = null;
+var callback = null;
 callback = require('./build/Release/callback');  
-export default callback;
+module.exports = callback;
